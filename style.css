@@ -1,0 +1,131 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            MAIN COLOR: #087f5b
+            GREY COLOR: #343a40
+            HOVER COLOR: #099268
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "League Spartan", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+p {
+  font-size: 15px;
+}
+
+.container {
+  height: 100vh;
+  width: 1200px;
+  margin: 100px auto;
+  background-color: hsl(0, 0%, 100%);
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 64px;
+}
+
+.row {
+  /* background-color: red; */
+  width: 400px;
+  padding: 0 24px;
+}
+
+li {
+  list-style: none;
+}
+
+.product-title {
+  font-size: 52px;
+  margin-bottom: 32px;
+  font-weight: 700;
+  line-height: 0.9;
+  color: hsl(300, 43%, 22%);
+}
+
+.product-content {
+  line-height: 1.5;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.rates {
+  margin-top: 30px;
+}
+
+.rate {
+  margin-bottom: 24px;
+  background-color: hsl(300, 24%, 96%);
+  /* background-color: red; */
+  width: 400px;
+  padding: 12px 24px;
+}
+
+.rate--two {
+  margin-left: 32px;
+}
+
+.rate--three {
+  margin-left: 64px;
+}
+
+.testiomonials {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.testimonial {
+  width: 300px;
+  padding: 32px;
+}
+.image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.testimonial-name {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+.testimonial-verified {
+  color: hsl(333, 80%, 67%);
+}
+.testimonial-content {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.testimonial-info-row {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.person-one {
+  background-color: hsl(300, 43%, 22%);
+}
+.person-two {
+  background-color: hsl(300, 43%, 22%);
+  margin-top: 16px;
+}
+.person-three {
+  background-color: hsl(300, 43%, 22%);
+  margin-top: 32px;
+}
