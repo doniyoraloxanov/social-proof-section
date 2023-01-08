@@ -28,4 +28,4 @@ Users should be able to:
 
 - Frontend Mentor - [@aloxanovme](https://www.frontendmentor.io/profile/aloxanovme)
 - Linkedin - [Doniyor aloxanov](https://www.linkedin.com/in/doniyoraloxanov/)
-- Gmail - @doniyoraloxanov@gmail.com
+- Gmail - doniyoraloxanov@gmail.com
