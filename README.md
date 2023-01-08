@@ -26,7 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-[Alt text](/relative/path/to/design/desktop-design.jpg?raw=true "Optional Title")
+[Desktop version](/relative/path/to/design/desktop-design.jpg?raw=true "Optional Title")
+
+<img src="/design//desktop-design.png" alt="desktop design version photo"/>
 
 ### Links
 
