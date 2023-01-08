@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+[Alt text](/relative/path/to/images/desktop-design.jpg?raw=true "Optional Title")
 
 ### Links
 
