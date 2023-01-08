@@ -90,6 +90,7 @@ li {
   display: flex;
   flex-direction: row;
   gap: 32px;
+  margin-left: 22px;
 }
 .testimonial {
   width: 300px;
